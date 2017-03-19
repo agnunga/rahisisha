@@ -735,7 +735,7 @@ img{
 }
 
 .team-img-1 { 
-	background-image: url(assets/images/agunga.png);
+	background-image: url(assets/images/agunga_1.png);
 }
 
 .team-img-2 { 
@@ -743,10 +743,10 @@ img{
 }
 
 .team-img-3 { 
-	background-image: url(assets/images/team-member3.png);
+	background-image: url(assets/images/javasson.jpg);
 }
 .team-img-4 { 
-	background-image: url(assets/images/team-member4.png);
+	background-image: url(assets/images/faima.png);
 }
 .team-info {
 	position: absolute;

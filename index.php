@@ -68,15 +68,8 @@
                             <span>RELIABLE</span>
                             <span>COST EFFECTIVE</span>
                             SOLUTIONS</h2>
-                        <!-- End header content slider -->  
-                        <!-- Header btn area -->
                         <hr/>
                         <div class="header-btn-area menu-scroll" style="margin: 10px; padding: 5px;">
-                            <!-- 
-                            <a class="knowmore-btn" href="#about">ABOUT US</a>
-                            <a class="download-btn" href="#testimonial">TESTIMONIALS</a>
-                            <a class="knowmore-btn" href="#testimonial">CLIENTS TESTIMONIALS</a>
-                            -->
                             <a class="knowmore-btn" href="#pricing-table">OUR FAIR PRICING</a>
                         </div>
                         <hr/>
@@ -105,9 +98,6 @@
                                                 <li><a href="#service">SERVICE</a></li> 
                                                 <li><a href="#portfolio">PORTFOLIO</a></li>
                                                 <li><a href="#pricing-table">PRICE </a></li>             
-                                                <!--  
-                                                <li><a href="#testimonial">TESTIMONIALS </a></li>  
-                                                -->
                                                 <li><a href="#contact">CONTACT US</a></li>
                                             </ul>                            
                                         </div><!--/.nav-collapse -->
@@ -138,9 +128,11 @@
                                 <h2 class="tittle">ABOUT <span>RAHISISHA SOLUTION</span></h2>
                                 <span class="tittle-line"></span>
                                 <p>
-                                    Rahisisha Universal Solutions Provider is a big team of intellectuals of various specializations. 
-                                    We majorly provide ICT solutions and related products. We also offer financial services and an education center for 
-                                    individuals willing to take short courses in Computing and Accounting.
+                                    Rahisisha Universal Solutions Provider is a team of IT experts devoted to deliver standard products and services with ease. 
+                                    We majorly provide ICT solutions and related products. 
+                                    <br/>
+                                    We are also linked to a team that offer financial services and an training.
+                                    <!--We have partnered with institituins short courses in Computing and Accounting.-->
 
                                 </p>
                             </div>
@@ -169,7 +161,7 @@
                                             <span class="fa fa-line-chart wc-icon"></span>
                                             <h4 class="wc-tittle">Strategy</h4>
                                             <p>
-                                                Our strategy is unique and orderly. We believe in operating in a professional manner that is understandable to our clients.
+                                                Orderly. We believe in operating in a professional manner that is understandable to our clients.
                                             </p>
                                         </div>
                                     </li>
@@ -178,7 +170,7 @@
                                             <span class="fa fa-bus wc-icon"></span>
                                             <h4 class="wc-tittle">Business solution</h4>
                                             <p>
-                                                Modernize you business and move with technology. Consult us and we shall tell you a problem you have and you never thought of.
+                                                Move with technology. Consult us and we shall tell you a problem you have and you never thought of.
                                             </p>
                                         </div>
                                     </li>
@@ -201,7 +193,7 @@
                                 <div class="col-md-7 col-sm-6 col-xs-12">
                                     <div class="about-right wow fadeInRight">
                                         <div class="title-area">
-                                            <h3 class="tittle">THE <span>RAHISISHA'S</span> APPROACH</h3>
+                                            <h3 class="tittle"><span>RAHISISHA'S</span> APPROACH</h3>
                                             <span class="tittle-line"></span>
                                             <p>
                                                 Our approach is centered on maximization of output while minimizing the cost of providing the solution without compromising the 
@@ -264,7 +256,7 @@
                                         <div class="team-item team-img-1 wow fadeInUp">
                                             <div class="team-info">
                                                 <p> We are here for you. New style in problem solving.</p>
-                                                <a href="#"><span class="fa fa-facebook"></span></a>
+                                                <a href="https://www.facebook.com/omondiAgunga" target="blank"><span class="fa fa-facebook"></span></a>
                                                 <a href="#"><span class="fa fa-twitter"></span></a>
                                                 <a href="#"><span class="fa fa-pinterest"></span></a>
                                                 <a href="#"><span class="fa fa-rss"></span></a>
@@ -272,7 +264,7 @@
                                         </div>
                                         <div class="team-address">
                                             <p>Godfrey Agunga</p>
-                                            <span>CEO & Founder</span>
+                                            <span>Founder</span>
                                         </div>
                                     </li>
                                     <li>
@@ -308,9 +300,7 @@
                                     <li>
                                         <div class="team-item team-img-4 wow fadeInUp">
                                             <div class="team-info">
-                                                <p>
-                                                    Project manager.
-                                                </p>
+                                                <p> I must explain to you how all this mistaken idea of denouncing pleasure n</p>
                                                 <a href="#"><span class="fa fa-facebook"></span></a>
                                                 <a href="#"><span class="fa fa-twitter"></span></a>
                                                 <a href="#"><span class="fa fa-pinterest"></span></a>
@@ -318,8 +308,8 @@
                                             </div>
                                         </div>
                                         <div class="team-address">
-                                            <p>ROB HANSOM</p>
-                                            <span>Senior designer</span>
+                                            <p>Faima Mwami</p>
+                                            <span>System Administrator</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -350,19 +340,19 @@
                                 <ul class="service-table">
                                     <li class="col-md-3 col-sm-6">
                                         <div class="single-service wow slideInUp">
-                                            <span class="fa fa-android service-icon"></span>
-                                            <h4 class="service-title">Android Applications</h4>
+                                            <span class="fa fa-map-o service-icon"></span>
+                                            <h4 class="service-title">Web Design</h4>
                                             <p>
-                                                We design and develop android applications. We have very experienced staff.
+                                                Our team builds very standard website that conform to modernity.
                                             </p>
                                         </div>
                                     </li>
                                     <li class="col-md-3 col-sm-6">
                                         <div class="single-service wow slideInUp">
-                                            <span class="fa fa-map-o service-icon"></span>
-                                            <h4 class="service-title">Web Design</h4>
+                                            <span class="fa fa-android service-icon"></span>
+                                            <h4 class="service-title">Android Apps</h4>
                                             <p>
-                                                Our team builds very standard website that conform to modernity.
+                                                We design and develop android applications. We have very experienced staff.
                                             </p>
                                         </div>
                                     </li>
@@ -380,7 +370,7 @@
                                             <span class="fa fa-support service-icon"></span>
                                             <h4 class="service-title">IT Support</h4>
                                             <p>
-                                                We provide IT user support staff to organizations.
+                                                We provide IT Support to organizations and individuals.
                                             </p>
                                         </div>
                                     </li>
@@ -573,12 +563,13 @@
                             <h3>
                                 Some of our clients
                             </h3>
-                            <ul class="client-table" style="text-align: center">
+                            <ul class="client-table" style="text-align: center;">
                                 <li><img src="assets/images/nbi_logo6.png" alt="client logo" height="100px"></li>                   
                                 <li><img src="assets/images/mokmat_r2.png" alt="client logo" height="100px"></li>                   
-                                <li><img src="assets/images/skylink_logo.png" alt="client logo" height="100px"></li>                   
                                 <li><img src="assets/images/eden_park_logo.png" alt="client logo" height="100px"></li>                   
                                 <li><img src="assets/images/agunga_dark.jpg" alt="client logo" height="100px"></li>                   
+                                <li><img src="assets/images/skylink_logo.png" alt="client logo" height="100px"></li>                   
+                                <li><img src="assets/images/mokmat_r2.png" alt="client logo" height="100px"></li>                   
                             </ul>
                         </div>
                         <div  style="text-align: center; margin: 5px auto 0 31%;">
@@ -599,23 +590,31 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-6 col-xs-12">
                         <div class="contact-left wow fadeInLeft">
-                            <h2>Contact with us</h2>
+                            <h2>Contact Us</h2>
+                            <!-- 
                             <address class="single-address">
                                 <h4>Postal address:</h4>
-                                <p>PO Box 16122 Collins Street West Victoria 8007 Australia</p>
+                                <p>
+
+                                </p>
                             </address>
                             <address class="single-address">
                                 <h4>Headquarters:</h4>
-                                <p>121 King Street, Melbourne Victoria 3000 Australia</p>
+                                <p>
+
+                                </p>
                             </address>
+                            -->
                             <address class="single-address">
                                 <h4>Phone</h4>
-                                <p>Fax Number: (123) 456 7890</p>
+                                <p>Cell Phone 1: +254 712 929 181</p>
+                                <p>Cell Phone 2: +254 706 091 094</p>
                             </address>
                             <address class="single-address">
                                 <h4>E-Mail</h4>
-                                <p>Support: Support@example.com</p>
-                                <p>Sales: sales@example.com</p>
+                                <p>Support: info@rahisisha.co.ke</p>
+                                <p>Sales: sales@rahisisha.co.ke</p>
+                                <p>Other: agunga3d@gmail.com</p>
                             </address>
                         </div>
                     </div>
