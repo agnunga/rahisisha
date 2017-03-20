@@ -19,7 +19,7 @@
         <!-- Theme color -->
         <!--<link id="switcher" href="assets/css/theme-color/default.css" rel="stylesheet">-->
         <!--<link id="switcher" href="assets/css/theme-color/dark-red-theme.css" rel="stylesheet">-->
-        <!--<link id="switcher" href="assets/css/theme-color/green-theme.css" rel="stylesheet">-->
+        <!--<link id="switgcher" href="assets/css/theme-color/green-theme.css" rel="stylesheet">-->
         <link id="switcher" href="assets/css/theme-color/lite-blue-theme.css" rel="stylesheet">
         <!--<link id="switcher" href="assets/css/theme-color/orange-theme.css" rel="stylesheet">-->
         <!--<link id="switcher" href="assets/css/theme-color/pink-theme.css" rel="stylesheet">-->
@@ -97,7 +97,7 @@
                                                 <li><a href="#team">TEAM</a></li>                    
                                                 <li><a href="#service">SERVICE</a></li> 
                                                 <li><a href="#portfolio">PORTFOLIO</a></li>
-                                                <li><a href="#pricing-table">PRICE </a></li>             
+                                                <li><a href="#pricing-table">PRICING </a></li>             
                                                 <li><a href="#contact">CONTACT US</a></li>
                                             </ul>                            
                                         </div><!--/.nav-collapse -->
@@ -513,7 +513,7 @@
                                 <ul class="price-table">
                                     <li class="wow slideInUp">
                                         <div class="single-price">
-                                            <h4 class="price-header">Persoal Website </h4>
+                                            <h4 class="price-header">Personal Website </h4>
                                             <span class="price-amount">KSH 10,000/yr</span>
                                             <p>10 Email Address</p>
                                             <p>Maintenance fee</p>
@@ -595,13 +595,11 @@
                             <address class="single-address">
                                 <h4>Postal address:</h4>
                                 <p>
-
                                 </p>
                             </address>
                             <address class="single-address">
                                 <h4>Headquarters:</h4>
                                 <p>
-
                                 </p>
                             </address>
                             -->
@@ -620,18 +618,19 @@
                     </div>
                     <div class="col-md-8 col-sm-6 col-xs-12">
                         <div class="contact-right wow fadeInRight">
-                            <h2>Send a message</h2>
-                            <form action="" class="contact-form">
+                            <h2>Message Us</h2>
+                            <form action="/sendEmail.php" class="contact-form">
                                 <div class="form-group">                
-                                    <input type="text" class="form-control" placeholder="Name">
+                                    <input id="senderNameId"  name="senderName" type="text" class="form-control" placeholder="Name">
                                 </div>
+                                <input id="messageSubjectId" name="messageSubject" type="hidden" value="Message from Rahisisha ContactUs">
                                 <div class="form-group">                
-                                    <input type="email" class="form-control" placeholder="Enter Email">
+                                    <input id="senderEmailId"  name="senderEmail" type="email" class="form-control" placeholder="Enter Email">
                                 </div>              
                                 <div class="form-group">
-                                    <textarea class="form-control"></textarea>
+                                    <textarea id="messageBodyId" name="messageBody" class="form-control"></textarea>
                                 </div>
-                                <button type="submit" data-text="SUBMIT" class="button button-default"><span>SUBMIT</span></button>
+                                <button id="sendMailId" name="sendMail" type="submit" data-text="SEND" class="button button-default"><span>SUBMIT</span></button>
                             </form>
                         </div>
                     </div>
@@ -678,9 +677,32 @@
         <script type="text/javascript" src="assets/js/jquery.counterup.js"></script>
         <!-- Wow animation -->
         <script type="text/javascript" src="assets/js/wow.js"></script> 
-
         <!-- Custom js -->
         <script type="text/javascript" src="assets/js/custom.js"></script>
+
+        <script>
+            $(document).on('click', '#sendMailId', function (e) {
+                e.preventDefault();
+                var senderName = $('#senderNameId').val();
+                var messageSubject = $('#messageSubjectId').val();
+                var senderEmail = $('#senderEmailId').val();
+                var messageBody = $('#messageBodyId').val();
+
+                $.ajax({
+                    url: "sendEmail.php",
+                    method: "POST",
+                    data: {senderName: senderName, messageSubject: messageSubject, senderEmail: senderEmail, messageBody: messageBody},
+                    dataType: "text",
+                    success: function (data) {
+                        alert(data);
+                        //                $('#success_alert_message').append(data);
+                        //                $('#success_alert_message').removeClass('hidden');
+                        //                faddingAllert('#success_alert_message');
+                    }
+                });
+            });
+        </script>
+
 
     </body>
 </html>
